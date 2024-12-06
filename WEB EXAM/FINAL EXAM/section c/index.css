@@ -1,0 +1,154 @@
+body{
+  
+    margin: 0;
+    font-family: Arial, sans-serif;
+    opacity: 80%;
+    background-color: powderblue;
+    
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 242px;
+    margin-top: -212px;
+
+
+}
+
+
+.bar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    left: 100%;
+
+}
+.bar li{
+    margin: 0 15px;
+}
+.bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background0.3s;
+    background-color: black;
+
+}
+
+.bar a:hover{
+    background-color:red;
+}
+
+.bar{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color:white;
+padding: 40px 0;
+z-index: 1000;
+margin-left: 1px;
+
+}
+.name::first-letter{
+    color: red;
+    font-size:50px;
+    /* float: left; */
+    font-weight: bolder;   
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* .container{ */
+    
+    /* margin-left: 380px;
+    margin-top: -277px;
+    text-align: center;
+} */
+h2{
+    color: black;
+    
+}
+
+
+
+.pic{
+    width: 275px;
+    height: 275px;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 370px;
+    margin-top: 332px;
+    margin-right: 360px;
+    margin-bottom: 2rem;
+}
+.icon{
+    transition: transform 0.3s ease;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-left: 22rem;
+    gap: 10rem;
+    background-color: black;
+    
+}
+/* .icon:hover{
+    background-color: black;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.arrow{
+    margin-left: 46rem;
+    margin-top: 3rem;
+    position: relative;
+    padding:1rem;
+    background-color: crimson;
+  }
+.arrow:hover{
+    background-color: white;
+}
+.arrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+  }
+
+footer{
+    background-color: black;
+}
+.icon1:hover{
+    background-color: blue;
+}
+.icon2:hover{
+    background-color: blue;
+}
+.icon3:hover{
+    background-color: blue;
+}
+.icon4:hover{
+    background-color: blue;
+}
+
+
+
+

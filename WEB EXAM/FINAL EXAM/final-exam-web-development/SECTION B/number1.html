@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my webpage</title>
+    <style>
+        .grid-container { display: grid;
+            grid-template-columns: auto auto auto; 
+            background-color: white;
+            padding: 30px;
+            gap: 50px 100px;
+         }
+        .grid-card { background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8); 
+            padding: 60px;
+            font-size: 40px; 
+            text-align: center; }
+
+            @media (max-width: 768px) {
+                .grid-container { display: grid;
+            grid-template-rows: auto auto auto; 
+            background-color: white;
+            padding: 30px;
+            gap: 50px 100px;
+         }
+        .grid-card { background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8); 
+            padding: 60px;
+            font-size: 40px; 
+            text-align: center; }
+            }
+        
+        @media (min-width: 769px) {
+            .grid-container { display: grid;
+            grid-template-columns: auto auto auto; 
+            background-color: white;
+            padding: 30px;
+            gap: 50px 100px;
+         }
+        .grid-card { background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8); 
+            padding: 60px;
+            font-size: 40px; 
+            text-align: center
+           }}
+        
+            
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="grid-card">Card one</div>
+    <div class="grid-card">Card two</div>
+    <div class="grid-card">Card three</div>
+    </div>
+</body>
+</html>

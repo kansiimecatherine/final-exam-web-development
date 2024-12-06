@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my webpage</title>
+    <style>
+        body{
+            background-color: powderblue;
+        }
+         .bar {
+        flex-direction: column;
+        gap: 20px;
+        text-decoration: none;
+        justify-content: space-between;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        
+    }
+
+    .bar a {
+        font-size: 1em;
+        text-decoration: none;
+        gap: 10px;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .intro h2 {
+        font-size: 2em;
+    }
+
+    
+
+    @media (max-width: 767px) {
+    .bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bar a {
+        font-size: 1em;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .intro h2 {
+        font-size: 2em;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bar {
+        gap: 15px;
+    }
+
+    .bar a {
+        font-size: 1.2em;
+    }
+
+    .container {
+        margin: 30px;
+    }
+
+    .intro h2 {
+        font-size: 2.2em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="bar"> 
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT ME</a>
+            <a href="#">SKILLS</a>
+            <a href="#">CONTACT ME</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Hello, World!</h2>
+            <h2>My name is;</h2>
+            <h2 style="color: black;">Kansiime Catherine</h2>
+            <h2>I like software development</h2>
+           
+        </div>
+    </div>
+</body>
+</html>
